@@ -66,6 +66,7 @@ p {
 
 .texto {
   padding: 5px 50px;
+  font-size: 30px;
 }
 
 .fondo {
@@ -194,5 +195,11 @@ form {
     align-items: center;
     flex-direction: column;
     margin: 5% 15%;
+  }
+  fieldset {
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 70%;
   }
 }/*# sourceMappingURL=estilos.css.map */

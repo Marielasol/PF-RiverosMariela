@@ -42,6 +42,7 @@ button {
     background-color: rgb(243, 166, 204);
     color: rgba(0, 0, 0, 0.56);;
     display: inline;
+
 }
 p{
     font-size: 130%;
@@ -51,6 +52,7 @@ p{
 }
 .texto{
     padding: 5px 50px;
+    font-size: 30px;
     
 }
 .fondo{
@@ -136,6 +138,7 @@ form{
     padding-top: 120px;
     align-items: center;
 }
+
 .footer_index{
     padding: 1em 0;
     text-align: center;
@@ -171,6 +174,13 @@ form{
         align-items: center;
         flex-direction: column;
         margin: 5% 15%; 
+    }
+    fieldset{
+        padding: 15px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        width: 70%;
+        
     }
 }
     
