@@ -15,20 +15,31 @@
 </head>
 
     <body class="fondo">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="cursos.html">Cursos</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                </ul>
-            </nav>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img class="logo-nav" src="../img/logo.jpg" alt="logoobsesiva"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation"><a href="./index.html"></a>
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class= "navbar-nav">
+        
+                        <ul class="menu-nav nav-link" aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li><a class="dropdown-item" href="./paginas/cursos.html">Cursos</a></li>
+                          <li><a class="dropdown-item" href="./paginas/servicios.html">Servicios</a></li>
+                          <li><a class="dropdown-item" href="./paginas/contacto.html">Contacto</a></li>
+                        </ul>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+  
+        <main>
             <h1>
                 Contacto
             </h1>
-        </header>
-
-        <main>
 
             <form action="Contacto" class="contenedor">
                 <fieldset>
@@ -50,8 +61,8 @@
             </form>
             <div class="centrar"><button input type="submit">Enviar</button>
         </main>
-        <footer class="footer_index">
-            Sitio creado por Mariela Riveros para Obsesiva Nails Studio
+        <footer>
+            <p>Sitio creado por Mariela Riveros para Obsesiva Nails Studio</p>
         </footer>
     </body>
 
