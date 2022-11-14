@@ -88,7 +88,7 @@ p{
 }
 
 
-/* Creamos la animación (con keyframes) */
+/* Animacion de titulo */
 
 @keyframes reboteOut {
 
@@ -141,9 +141,8 @@ h2{
 /**formulario de contacto**/
 fieldset{
     padding: 30px;
-    margin-bottom: 60px;
-    margin-left: 450px;
-    width: 900px;
+    width: 50%;
+    margin-top: 30px;
     background-color: $color-2-grupo-2;
 }
 input{
@@ -151,13 +150,14 @@ input{
     outline: none;
 }
 form{
-    justify-content: center;
-    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px;
     align-items: center;
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     header{
         
     }
