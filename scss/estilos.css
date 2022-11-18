@@ -80,18 +80,19 @@ p {
 }
 
 .fondo {
+  margin: 0;
+  padding: 0;
   background-color: rgb(253, 216, 235);
 }
 
 .unavioleta {
-  width: 100%;
-  height: 100%;
+  width: 90%;
 }
 
 .reboteOut {
   text-align: center;
   font-size: 50px;
-  margin: 100px 50px;
+  margin: 50px 50px;
   -webkit-animation: reboteOut 1s infinite;
           animation: reboteOut 1s infinite;
 }
@@ -132,7 +133,7 @@ h1 {
   padding: 15px;
 }
 
-h2 {
+h3 {
   padding: 30px;
   margin: 40px;
   font-size: 130%;
@@ -140,11 +141,18 @@ h2 {
 }
 
 /** pagina servicios y cursos **/
+.cursos {
+  font-size: 50px;
+  color: rgb(245, 67, 191);
+  text-align: center;
+  word-spacing: 15pt;
+  font-family: "Bree Serif";
+  padding: 15px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 20% 20% 20%;
-  grid-template-rows: 140px 10px 140px;
-  row-gap: 50%;
   justify-content: center;
 }
 .grid .listadocys {
@@ -174,9 +182,6 @@ form {
 }
 
 @media (max-width: 900px) {
-  .logo-nav {
-    display: none;
-  }
   .menu-nav {
     background-color: rgb(247, 191, 219);
     width: 100%;
